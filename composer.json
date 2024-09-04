@@ -1,0 +1,31 @@
+{
+    "name": "mukul-escion/accountmanagement",
+    "description": "",
+    "authors": [
+        {
+            "name": "mukul Rathi",
+            "email": "mukul@ecsion.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AccountManagement\\": "",
+            "Modules\\AccountManagement\\App\\": "app/",
+            "Modules\\AccountManagement\\Database\\Factories\\": "database/factories/",
+            "Modules\\AccountManagement\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\AccountManagement\\Tests\\": "tests/"
+        }
+    }
+}
