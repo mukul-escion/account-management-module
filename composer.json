@@ -1,6 +1,7 @@
 {
     "name": "mukul-escion/accountmanagement",
     "description": "",
+    "type": "laravel-module",
     "authors": [
         {
             "name": "mukul Rathi",
